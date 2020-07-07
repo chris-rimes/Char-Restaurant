@@ -38,7 +38,7 @@ p {
 /* Headings */
 .big-heading {
   font-weight: 900;
-  font-size: 3.5rem;
+  font-size: 3.0rem;
   line-height: 1.5;
 }
 
@@ -99,7 +99,7 @@ p {
 .title-image {
   width: 100%;
   position: absolute;
-  bottom: -5%;
+  bottom: -20%;
   right: -20%;
 }
 
