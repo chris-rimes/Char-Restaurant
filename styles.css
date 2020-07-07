@@ -27,7 +27,7 @@ p {
 
 #title {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url('/images/background.jpeg');
+    url('images/background.jpeg');
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
