@@ -139,6 +139,14 @@ p {
   content: '\e903';
 }
 
+.icon-fork:before {
+  content: '\e900';
+}
+
+.icon-salt:before {
+  content: '\e908';
+}
+
 #menu {
   margin: 5rem auto;
 }
