@@ -186,6 +186,14 @@ p {
   #title {
     text-align: center;
   }
+  .navbar-dark .navbar-toggler {
+    color: #fff;
+    border: none;
+  }
+  .navbar-toggler {
+    font-size: 1.5rem;
+  }
+  
 
   #title .big-heading {
     font-size: 3rem;
