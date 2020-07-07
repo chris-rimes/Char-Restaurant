@@ -244,6 +244,9 @@ p {
     position: static;
     width: 100%;
   }
+  .social-icon {
+    font-size:3rem;
+}
 }
 
 @media (max-width: 425px) {
