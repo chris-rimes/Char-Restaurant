@@ -188,7 +188,7 @@ p {
   }
 
   #title .big-heading {
-    font-size: 2rem;
+    font-size: 3rem;
   }
   .title-image {
     position: static;
@@ -201,6 +201,10 @@ p {
     font-size: 50%;
   }
   #title {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
+  .nav-link {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
 }
