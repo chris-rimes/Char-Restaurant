@@ -231,6 +231,13 @@ p {
   }
 
   #title {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('images/background.jpeg');
+    -webkit-background-size: center;
+    -moz-background-size: center;
+    -o-background-size: center;
+    background-size: center;
+    background-position: left top;
     text-align: center;
   }
   .navbar-dark .navbar-toggler {
