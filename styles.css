@@ -1,6 +1,7 @@
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -126,7 +127,7 @@ p {
 }
 
 .feature-box {
-  padding: 4%;
+  margin-bottom: 4rem;
   text-align: left;
 }
 
@@ -219,20 +220,24 @@ p {
 /* Media Queries */
 
 @media (max-width: 1028px) {
+  .menu-box {
+    margin-bottom: 6rem;
+    padding: 4% 17% 10rem;
+  }
+  .menu-title,
+  .menu-paragraph {
+    text-align: left;
+  }
   .menu-image {
     width: 50%;
     height: 75%;
     border-radius: 100%;
-  }
-
-  .menu-box {
-    margin-bottom: 4rem;
-    padding-bottom: 10rem;
+    text-align: right;
   }
 
   #title {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url('images/background.jpeg');
+      url('images/background.jpeg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -256,8 +261,8 @@ p {
     width: 100%;
   }
   .social-icon {
-    font-size:3rem;
-}
+    font-size: 3rem;
+  }
 }
 
 @media (max-width: 425px) {
