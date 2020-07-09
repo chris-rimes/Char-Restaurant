@@ -132,6 +132,49 @@ p {
   text-align: left;
 }
 
+@font-face {
+  font-family: 'icomoon';
+  src: url('fonts/icomoon.eot?on8oh2');
+  src: url('fonts/icomoon.eot?on8oh2#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?on8oh2') format('truetype'),
+    url('fonts/icomoon.woff?on8oh2') format('woff'),
+    url('fonts/icomoon.svg?on8oh2#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^='icon-'],
+[class*=' icon-'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-fork:before {
+  content: '\e900';
+}
+
+.icon-vegetable:before {
+  content: '\e902';
+}
+.icon-vegetables:before {
+  content: '\e903';
+}
+
+.icon-salt:before {
+  content: '\e908';
+}
+
 [class^='icon-'],
 [class*=' icon-'] {
   color: #fff;
